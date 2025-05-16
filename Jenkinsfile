@@ -1,6 +1,5 @@
 pipeline {
   agent any
-
   
   stages {
     stage('shellcopy') {
@@ -14,3 +13,5 @@ pipeline {
         }
       }
     }
+  }
+}
